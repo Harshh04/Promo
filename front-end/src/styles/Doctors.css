@@ -1,0 +1,97 @@
+.doctors-body {
+	background-color: #f4f4f4;
+	margin-top: 5%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-family: "Montserrat", sans-serif;
+	text-align: center;
+}
+
+.doctor-title {
+	margin-top: 10%;
+	font-size: 8vh;
+	color: rgb(11, 6, 107);
+}
+
+.doctor-subtitle {
+	margin-bottom: 4%;
+	font-size: 30px;
+}
+
+.card-row {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 10%;
+}
+
+.card {
+	flex: 1 1 30%;
+	max-width: 30%;
+	border-radius: 40px;
+	margin: 2.5%;
+}
+
+.card-img-top {
+	height: 300px;
+	width: auto;
+}
+
+.card-footer {
+	background-color: white;
+	border-radius: 30px;
+	padding: 10px;
+}
+
+.text-muted {
+	color: #777;
+	font-size: 12px;
+}
+
+.card-title {
+	margin-top: 3%;
+	font-weight: 600;
+	font-size: 3vh;
+}
+
+.card-text {
+	margin-top: 3%;
+	font-size: 1.8vh;
+	margin-left: 5%;
+	margin-right: 5%;
+	padding-bottom: 4%;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+	.doctor-title {
+		font-size: 6vh;
+	}
+
+	.card-title {
+		font-size: 2.5vh;
+	}
+
+	.card-sub-title {
+		font-size: 2vh;
+	}
+
+	.card-text {
+		font-size: 1.8vh;
+	}
+
+	.card-row {
+		flex-wrap: wrap;
+		margin: 0;
+	}
+
+	.card {
+		flex: 1 0 90%;
+		margin: 5%;
+	}
+}
